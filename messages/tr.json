@@ -1,0 +1,194 @@
+{
+  "HomePage": {
+    "title": "Luna Den Spa Dedeman Şanlıurfa"
+  },
+  "header": {
+    "phone": {
+      "triggerLabel": "{phone} iletişim seçenekleri",
+      "call": "Telefonla ara",
+      "whatsapp": "WhatsApp'tan yaz"
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Luna Den Spa & Wellness",
+      "title": "Şanlıurfa'da bedeninizi dinlendiren spa, hamam ve masaj deneyimi",
+      "description": "Luna Den Spa Dedeman Şanlıurfa'da hamam, sauna, kese + köpük ve kişiye özel masaj teknikleriyle şehir ritminden uzaklaşın; özenli atmosferde kendinize iyi gelen bir mola verin.",
+      "services": "Hizmetlerimizi İncele",
+      "contact": "İletişime Geç"
+    },
+    "about": {
+      "badge": "Hakkımızda",
+      "title": "Şanlıurfa'da dinginliği, geleneksel hamam kültürünü ve profesyonel spa deneyimini bir araya getiriyoruz",
+      "description": "Luna Den Spa Dedeman Şanlıurfa, misafirlerine gün temposu içinde sakinleşebilecekleri, bedenlerini dinlendirebilecekleri ve kendilerine özen gösterebilecekleri rahatlatıcı bir alan sunar. Hamam, sauna, kese + köpük ve kişiye özel masaj uygulamalarını hijyenik, sıcak ve özenli bir atmosferde planlıyoruz.",
+      "cta": "Hakkımızda detayları",
+      "imageAlt": "Luna Den Spa Dedeman Şanlıurfa hakkımızda görsel alanı",
+      "highlights": {
+        "expert": {
+          "title": "Uzman terapistler",
+          "description": "Deneyimli ekiplerle güven veren uygulamalar."
+        },
+        "calm": {
+          "title": "Sakin atmosfer",
+          "description": "Dedeman Şanlıurfa konforunda huzurlu bakım alanları."
+        },
+        "personal": {
+          "title": "Kişiye özel deneyim",
+          "description": "İhtiyacınıza göre şekillenen masaj ve spa seansları."
+        }
+      }
+    },
+    "services": {
+      "badge": "Hizmetlerimiz",
+      "intro": "Şanlıurfa'da size iyi gelecek hamam, sauna, kese + köpük ve masaj seçenekleriyle bedeninizi dinlendirin.",
+      "cta": "Tüm hizmetleri incele",
+      "popularTitle": "Popüler Hizmetlerimiz",
+      "featured": {
+        "hamam": {
+          "title": "Hamam & Kese + Köpük",
+          "description": "Geleneksel hamam ritüeli; kese ve köpük uygulamasıyla arınma ve tazelenme."
+        },
+        "sauna": {
+          "title": "Sauna",
+          "description": "Sıcaklığın rahatlatıcı etkisiyle kasları gevşeten, yenileyici bir deneyim."
+        },
+        "massage": {
+          "title": "Kişiye Özel Masaj",
+          "description": "İhtiyacınıza göre şekillenen masaj teknikleriyle derin bir rahatlama."
+        }
+      }
+    },
+    "contact": {
+      "eyebrow": "Randevu ve bilgi",
+      "title": "Şanlıurfa'da spa deneyiminizi planlamak için bize ulaşın.",
+      "description": "Hizmetler, müsaitlik ve randevu detayları için iletişim sayfasına geçebilir, doğrudan arayabilir ya da WhatsApp üzerinden bize yazabilirsiniz. Rezervasyon için: +90 539 339 6323",
+      "contactPage": "İletişim sayfası",
+      "call": "Hemen ara",
+      "whatsapp": "WhatsApp"
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "badge": "Dedeman Şanlıurfa'da Luna Den Spa",
+      "title": "Şanlıurfa'da dinginliği ve bakımı bir araya getiren özel spa deneyimi",
+      "description": "Luna Den Spa Dedeman Şanlıurfa, misafirlerine şehir temposundan uzaklaşabilecekleri, bedenlerini dinlendirebilecekleri ve kendilerine özen gösterebilecekleri sakin bir alan sunar. Hamam, sauna, kese + köpük ve kişiye özel masaj uygulamalarını hijyenik, sıcak ve profesyonel bir atmosferde planlıyor; her seansı misafirin ihtiyacına göre özenle şekillendiriyoruz.",
+      "imageAlt": "Luna Den Spa Dedeman Şanlıurfa hakkımızda görseli"
+    },
+    "gallery": {
+      "badge": "Şube atmosferi",
+      "title": "Spa atmosferimizi ve bakım alanlarımızı yakından inceleyin.",
+      "imageAlt": "Luna Den Spa Dedeman Şanlıurfa şube görseli {index}",
+      "open": "{index}. görseli aç",
+      "previous": "Önceki görsel",
+      "next": "Sonraki görsel",
+      "close": "Görseli kapat",
+      "dialogLabel": "Luna Den Spa Dedeman Şanlıurfa görsel galerisi"
+    },
+    "why": {
+      "badge": "Neden Luna Den Spa Dedeman Şanlıurfa?",
+      "title": "Her detayında konfor, hijyen ve profesyonel bakım anlayışı",
+      "description": "Şanlıurfa'da rahatlamak, yenilenmek ve kaliteli bir spa deneyimi yaşamak isteyen misafirlerimiz için hizmet akışını sakin, güven veren ve ölçülü bir standartta kurguluyoruz.",
+      "items": {
+        "quality": {
+          "title": "Bakım kalitesini her adımda yüksek tutuyoruz",
+          "description": "Seans öncesinden çıkış anına kadar misafir deneyimini özenle planlıyoruz."
+        },
+        "safety": {
+          "title": "Hijyen ve güven standartlarını merkeze alıyoruz",
+          "description": "Temiz, düzenli ve sakin alanlarda profesyonel uygulamalar sunuyoruz."
+        },
+        "contact": {
+          "title": "Randevu ve bilgi sürecini kolaylaştırıyoruz",
+          "description": "Telefon ve WhatsApp üzerinden hızlıca bilgi alabilir, planınızı oluşturabilirsiniz."
+        }
+      }
+    }
+  },
+  "servicesPage": {
+    "badge": "Hizmetlerimiz",
+    "title": "Şanlıurfa'da bedeninizi dinlendiren hamam, sauna ve masaj deneyimleri",
+    "description": "Luna Den Spa Dedeman Şanlıurfa'da geleneksel hamam ritüelleri, sauna, kese + köpük ve ihtiyaçlarınıza göre şekillenen masaj seçenekleriyle rahatlayabilir, sakin ve profesyonel bir bakım deneyimi yaşayabilirsiniz.",
+    "listTitle": "Hamam, Sauna ve Masaj Hizmetlerimiz",
+    "listDescription": "Hizmet açıklamalarını incelemek için ilgili hizmet başlığını açabilirsiniz.",
+    "images": {
+      "primaryAlt": "Luna Den Spa Dedeman Şanlıurfa hizmetlerimiz görseli",
+      "secondaryAlt": "Luna Den Spa Dedeman Şanlıurfa hamam ve masaj hizmetleri görseli"
+    },
+    "items": {
+      "hamam": {
+        "title": "Hamam",
+        "description": "Geleneksel hamam kültürünü modern ve hijyenik bir ortamda yaşatan bu ritüel; sıcaklığın arındırıcı etkisiyle bedeni yumuşatır, gevşetir ve yeniler."
+      },
+      "keseKopuk": {
+        "title": "Kese + Köpük",
+        "description": "Cildi ölü hücrelerden arındıran kese uygulamasının ardından bol köpüklü masajla tamamlanan bu klasik hamam deneyimi; derinlemesine temizlik ve tazelik hissi sunar."
+      },
+      "sauna": {
+        "title": "Sauna",
+        "description": "Kuru sıcağın rahatlatıcı etkisiyle kas gerginliğini azaltmaya, dolaşımı desteklemeye ve günün yorgunluğunu atmaya yardımcı olan yenileyici bir deneyimdir."
+      },
+      "classic": {
+        "title": "Klasik Masaj",
+        "description": "Kasları gevşetmeye ve kan dolaşımını desteklemeye yönelik, rahatlatıcı dokunuşlarla uygulanan, en yaygın tercih edilen masaj türlerinden biridir."
+      },
+      "deepTissue": {
+        "title": "Derin Doku Masajı",
+        "description": "Kas ve bağ dokularının derin katmanlarına etki eden bu terapi; yoğun kas gerginliklerini azaltmaya ve kronik ağrıları hafifletmeye yardımcı olur."
+      },
+      "aromatherapy": {
+        "title": "Aromaterapi Masajı",
+        "description": "Doğal ve özel bitkisel yağlar eşliğinde uygulanan bu bütünsel terapi; zihinsel ve fiziksel rahatlama sağlayarak duyularınızı canlandırır."
+      },
+      "personal": {
+        "title": "Kişiye Özel Masaj",
+        "description": "İhtiyaçlarınıza ve tercihlerinize göre uzman terapistlerimizce şekillendirilen, size özel planlanan masaj teknikleriyle derin bir rahatlama sunar."
+      }
+    }
+  },
+  "contactPage": {
+    "badge": "İletişim",
+    "title": "Luna Den Spa Dedeman Şanlıurfa iletişim bilgileri",
+    "description": "Dedeman Şanlıurfa şubemize ulaşmak, randevu almak veya konum bilgilerini incelemek için ihtiyaç duyacağınız temel bilgileri burada bulabilirsiniz.",
+    "branch": {
+      "title": "Dedeman Şanlıurfa Şubesi",
+      "description": "Luna Den Spa Dedeman Şanlıurfa için adres, telefon ve WhatsApp üzerinden hızlı iletişim bilgileri."
+    },
+    "map": {
+      "title": "Luna Den Spa Dedeman Şanlıurfa harita konumu"
+    },
+    "labels": {
+      "address": "Adres",
+      "phone": "Telefon"
+    },
+    "actions": {
+      "call": "Telefonla ara",
+      "whatsapp": "WhatsApp",
+      "directions": "Haritada aç"
+    }
+  },
+  "navigation": {
+    "home": "Anasayfa",
+    "about": "Hakkımızda",
+    "services": "Hizmetlerimiz",
+    "contact": "İletişim"
+  },
+  "footer": {
+    "description": "Luna Den Spa Dedeman Şanlıurfa'da hamam, sauna, kese + köpük ve kişiye özel masaj deneyimini sakin ve özenli bir atmosferde yaşayın.",
+    "contactTitle": "Dedeman Şanlıurfa Şubesi",
+    "hours": "Her gün: 10:30 - 22:00",
+    "quickLinks": "Hızlı bağlantılar",
+    "copyright": "© 2026 Luna Den Spa Dedeman Şanlıurfa. Tüm hakları saklıdır."
+  },
+  "errorPage": {
+    "eyebrow": "Bir hata oluştu",
+    "title": "Beklenmeyen bir sorun oluştu",
+    "description": "Sayfa yüklenirken bir hata oluştu. Tekrar deneyebilir ya da anasayfaya dönebilirsin.",
+    "retry": "Tekrar dene",
+    "home": "Anasayfa"
+  },
+  "notFoundPage": {
+    "title": "Sayfa bulunamadı",
+    "description": "Aradığın sayfa taşınmış, kaldırılmış ya da hiç oluşturulmamış olabilir.",
+    "home": "Anasayfa"
+  }
+}
