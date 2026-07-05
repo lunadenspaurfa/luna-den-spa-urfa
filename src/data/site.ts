@@ -1,5 +1,5 @@
 const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://lunadenspaurfa.com";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.lunadenspaurfa.com";
 
 export const siteConfig = {
   name: "Luna Den Spa Dedeman Şanlıurfa",

@@ -28,7 +28,7 @@ pnpm build:cloudflare
 
 ## Yapılandırma
 
-- `NEXT_PUBLIC_SITE_URL`: canlı alan adı (varsayılan: `https://lunadenspaurfa.com`). `src/data/site.ts` üzerinden okunur; sitemap, robots ve metadata bu değeri kullanır.
+- `NEXT_PUBLIC_SITE_URL`: canlı alan adı (varsayılan: `https://www.lunadenspaurfa.com`). `src/data/site.ts` üzerinden okunur; sitemap, robots ve metadata bu değeri kullanır.
 - Google Ads dönüşüm kimlikleri `.env` içinde tanımlanır (`.env.example` şablonuna bakın). Boş bırakılırsa analytics devre dışı kalır.
 
 ## İçerik
