@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Check, Sparkles } from "lucide-react";
+import { Check, Dumbbell, Sparkles } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 import { Container } from "@/components/layout/primitives/container";
@@ -28,6 +28,9 @@ const services = [
   },
   {
     key: "sauna",
+  },
+  {
+    key: "fitness",
   },
   {
     key: "classic",
@@ -163,6 +166,54 @@ export function ServicesOverview() {
               </Accordion>
             </CardContent>
           </Card>
+        </div>
+
+        <div className="mt-14">
+          <div className="max-w-3xl">
+            <Badge
+              variant="outline"
+              className="h-11 rounded-full px-5 text-sm"
+            >
+              <Dumbbell className="size-4" />
+              {t("gym.badge")}
+            </Badge>
+
+            <h2 className="mt-5 text-3xl font-semibold leading-tight text-foreground md:text-4xl">
+              {t("gym.title")}
+            </h2>
+
+            <p className="mt-5 text-base leading-8 text-muted-foreground md:text-lg">
+              {t("gym.description")}
+            </p>
+          </div>
+
+          <div className="mt-8 grid gap-4 lg:grid-cols-2">
+            <Card className="relative rounded-lg p-0">
+              <CardContent className="relative aspect-[5/2] overflow-hidden p-0">
+                <Image
+                  src="/hizmetlerimiz/spor-salonu-1.webp"
+                  alt={t("gym.primaryAlt")}
+                  fill
+                  sizes="(min-width: 1024px) 48vw, 100vw"
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-primary/10" />
+              </CardContent>
+            </Card>
+
+            <Card className="relative rounded-lg p-0">
+              <CardContent className="relative aspect-[5/2] overflow-hidden p-0">
+                <Image
+                  src="/hizmetlerimiz/spor-salonu-2.webp"
+                  alt={t("gym.secondaryAlt")}
+                  fill
+                  sizes="(min-width: 1024px) 48vw, 100vw"
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-primary/10" />
+              </CardContent>
+            </Card>
+          </div>
         </div>
       </Container>
     </Section>

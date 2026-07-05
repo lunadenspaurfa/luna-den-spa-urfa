@@ -5,5 +5,5 @@ export const siteConfig = {
   name: "Luna Den Spa Dedeman Şanlıurfa",
   url: siteUrl.replace(/\/$/, ""),
   description:
-    "Luna Den Spa Dedeman Şanlıurfa, hamam, sauna, kese + köpük ve kişiye özel masaj hizmetlerini sakin ve özenli bir atmosferde sunar.",
+    "Luna Den Spa Dedeman Şanlıurfa, hamam, sauna, kese + köpük, kişiye özel masaj ve modern spor salonu hizmetlerini sakin ve özenli bir atmosferde sunar.",
 } as const;

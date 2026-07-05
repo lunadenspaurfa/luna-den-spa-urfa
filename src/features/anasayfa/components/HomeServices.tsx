@@ -1,4 +1,4 @@
-import { ArrowRight, Droplets, Flame, HeartPulse } from "lucide-react";
+import { ArrowRight, Droplets, Dumbbell, Flame, HeartPulse } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 import { Container } from "@/components/layout/primitives/container";
@@ -25,6 +25,10 @@ const featuredServices = [
   {
     key: "massage",
     icon: HeartPulse,
+  },
+  {
+    key: "fitness",
+    icon: Dumbbell,
   },
 ] as const;
 
@@ -60,7 +64,7 @@ export function HomeServices() {
             {t("popularTitle")}
           </h2>
 
-          <div className="grid gap-4 md:grid-cols-3">
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {featuredServices.map((service) => (
               <Card key={service.key} className="rounded-lg border-t-2 border-t-primary/30">
                 <CardHeader>

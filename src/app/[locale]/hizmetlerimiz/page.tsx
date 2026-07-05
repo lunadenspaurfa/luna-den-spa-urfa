@@ -20,12 +20,12 @@ export async function generateMetadata({
     locale,
     title:
       normalizedLocale === "en"
-        ? "Hammam, Sauna and Massage Services | Luna Den Spa Dedeman Şanlıurfa"
-        : "Hizmetlerimiz | Luna Den Spa Dedeman Şanlıurfa Hamam, Sauna ve Masaj",
+        ? "Hammam, Sauna, Massage and Fitness Services | Luna Den Spa Dedeman Şanlıurfa"
+        : "Hizmetlerimiz | Luna Den Spa Dedeman Şanlıurfa Hamam, Sauna, Masaj ve Spor Salonu",
     description:
       normalizedLocale === "en"
-        ? "Review hammam, sauna, scrub + foam, and personalized massage services at Luna Den Spa Dedeman Şanlıurfa."
-        : "Luna Den Spa Dedeman Şanlıurfa'da hamam, sauna, kese + köpük ve kişiye özel masaj hizmetlerini inceleyin.",
+        ? "Review hammam, sauna, scrub + foam, personalized massage, and fitness center services at Luna Den Spa Dedeman Şanlıurfa."
+        : "Luna Den Spa Dedeman Şanlıurfa'da hamam, sauna, kese + köpük, kişiye özel masaj ve spor salonu hizmetlerini inceleyin.",
     path: localizedPath(locale, "/hizmetlerimiz", "/services"),
     image: "/hizmetlerimiz/hizmetlerimiz-1.webp",
   });

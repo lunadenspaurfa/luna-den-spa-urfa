@@ -24,8 +24,8 @@ export async function generateMetadata({
         : "İletişim | Luna Den Spa Dedeman Şanlıurfa",
     description:
       normalizedLocale === "en"
-        ? "Reach Luna Den Spa Dedeman Şanlıurfa for address, map, phone, WhatsApp, and appointment details."
-        : "Luna Den Spa Dedeman Şanlıurfa adres, harita, telefon, WhatsApp ve randevu detayları için bize ulaşın.",
+        ? "Reach Luna Den Spa Dedeman Şanlıurfa for address, map, phone, WhatsApp, opening hours, and appointment details. Open every day 08:00 - 23:00."
+        : "Luna Den Spa Dedeman Şanlıurfa adres, harita, telefon, WhatsApp, çalışma saatleri ve randevu detayları için bize ulaşın. Her gün 08:00 - 23:00 arası açığız.",
     path: localizedPath(locale, "/iletisim", "/contact"),
   });
 }

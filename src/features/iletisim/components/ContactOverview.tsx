@@ -1,4 +1,4 @@
-import { MapPin, MessageCircle, Navigation, Phone } from "lucide-react";
+import { Clock, MapPin, MessageCircle, Navigation, Phone } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 import { Container } from "@/components/layout/primitives/container";
@@ -77,6 +77,15 @@ export function ContactOverview() {
                   </dt>
                   <dd className="mt-2 text-base leading-7 text-foreground/80">
                     {phoneNumber}
+                  </dd>
+                </div>
+                <div>
+                  <dt className="font-medium text-foreground">
+                    {t("labels.hours")}
+                  </dt>
+                  <dd className="mt-2 flex items-center gap-2 text-base leading-7 text-foreground/80">
+                    <Clock className="size-4 shrink-0 text-primary" />
+                    {t("hours")}
                   </dd>
                 </div>
               </dl>

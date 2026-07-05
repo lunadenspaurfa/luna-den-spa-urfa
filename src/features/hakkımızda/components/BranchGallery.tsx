@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { ChevronLeft, ChevronRight, Images, X } from "lucide-react";
 import { useTranslations } from "next-intl";
@@ -18,14 +18,57 @@ const galleryImages = [
   "/hakkimizda/sube-gorseli-3.webp",
   "/hakkimizda/sube-gorseli-4.webp",
   "/hakkimizda/sube-gorseli-5.webp",
+  "/hakkimizda/sube-gorseli-6.webp",
+  "/hakkimizda/sube-gorseli-7.webp",
 ] as const;
 
 export function BranchGallery() {
   const t = useTranslations("aboutPage.gallery");
   const [activeImageIndex, setActiveImageIndex] = useState<number | null>(null);
+  const scrollContainerRef = useRef<HTMLDivElement | null>(null);
+  const [canScrollLeft, setCanScrollLeft] = useState(false);
+  const [canScrollRight, setCanScrollRight] = useState(false);
 
   const activeImage =
     activeImageIndex === null ? null : galleryImages[activeImageIndex];
+
+  const updateScrollButtons = useCallback(() => {
+    const container = scrollContainerRef.current;
+
+    if (!container) {
+      return;
+    }
+
+    const maxScrollLeft = container.scrollWidth - container.clientWidth;
+
+    setCanScrollLeft(container.scrollLeft > 8);
+    setCanScrollRight(container.scrollLeft < maxScrollLeft - 8);
+  }, []);
+
+  useEffect(() => {
+    updateScrollButtons();
+    window.addEventListener("resize", updateScrollButtons);
+
+    return () => {
+      window.removeEventListener("resize", updateScrollButtons);
+    };
+  }, [updateScrollButtons]);
+
+  const scrollGallery = useCallback((direction: -1 | 1) => {
+    const container = scrollContainerRef.current;
+
+    if (!container) {
+      return;
+    }
+
+    const firstCard = container.firstElementChild?.firstElementChild;
+    const scrollAmount =
+      firstCard instanceof HTMLElement
+        ? firstCard.offsetWidth + 16
+        : container.clientWidth * 0.8;
+
+    container.scrollBy({ left: direction * scrollAmount, behavior: "smooth" });
+  }, []);
 
   const closeGallery = useCallback(() => {
     setActiveImageIndex(null);
@@ -82,8 +125,8 @@ export function BranchGallery() {
   return (
     <Section className="bg-background">
       <Container>
-        <div className="max-w-4xl">
-          <div>
+        <div className="flex flex-wrap items-end justify-between gap-6">
+          <div className="max-w-4xl">
             <Badge
               variant="outline"
               className="h-11 rounded-full bg-background px-5 text-sm"
@@ -95,9 +138,39 @@ export function BranchGallery() {
               {t("title")}
             </h2>
           </div>
+
+          <div className="hidden gap-3 md:flex">
+            <Button
+              type="button"
+              variant="outline"
+              size="icon-lg"
+              className="rounded-full"
+              onClick={() => scrollGallery(-1)}
+              disabled={!canScrollLeft}
+              aria-label={t("previous")}
+            >
+              <ChevronLeft className="size-5" />
+            </Button>
+
+            <Button
+              type="button"
+              variant="outline"
+              size="icon-lg"
+              className="rounded-full"
+              onClick={() => scrollGallery(1)}
+              disabled={!canScrollRight}
+              aria-label={t("next")}
+            >
+              <ChevronRight className="size-5" />
+            </Button>
+          </div>
         </div>
 
-        <div className="mt-10 snap-x snap-mandatory overflow-x-auto pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+        <div
+          ref={scrollContainerRef}
+          onScroll={updateScrollButtons}
+          className="mt-10 snap-x snap-mandatory overflow-x-auto pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+        >
           <div className="grid auto-cols-[82vw] grid-flow-col gap-4 sm:auto-cols-[46vw] lg:auto-cols-[340px] xl:auto-cols-[390px]">
             {galleryImages.map((src, index) => (
               <Card key={src} className="snap-start rounded-lg p-0">

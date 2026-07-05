@@ -12,15 +12,15 @@
   "home": {
     "hero": {
       "eyebrow": "Luna Den Spa & Wellness",
-      "title": "A calm spa, hammam, and massage experience that restores your body in Şanlıurfa",
-      "description": "Step away from the rhythm of the city at Luna Den Spa Dedeman Şanlıurfa with hammam, sauna, scrub + foam, and personalized massage techniques in a carefully designed atmosphere.",
+      "title": "A calm spa, hammam, massage, and fitness experience that restores your body in Şanlıurfa",
+      "description": "Step away from the rhythm of the city at Luna Den Spa Dedeman Şanlıurfa with hammam, sauna, scrub + foam, and personalized massage techniques, and stay in shape at our modern fitness center — all in a carefully designed atmosphere.",
       "services": "Explore Services",
       "contact": "Contact Us"
     },
     "about": {
       "badge": "About Us",
-      "title": "Bringing calm, traditional hammam culture, and a professional spa experience together in Şanlıurfa",
-      "description": "Luna Den Spa Dedeman Şanlıurfa offers guests a relaxing space where they can slow down, rest their body, and make time for personal care. We plan hammam, sauna, scrub + foam, and personalized massage treatments in a hygienic, warm, and attentive atmosphere.",
+      "title": "Bringing calm, traditional hammam culture, a professional spa experience, and a modern fitness center together in Şanlıurfa",
+      "description": "Luna Den Spa Dedeman Şanlıurfa offers guests a relaxing space where they can slow down, rest their body, and make time for personal care. We plan hammam, sauna, scrub + foam, and personalized massage treatments in a hygienic, warm, and attentive atmosphere, and our fitness center with modern equipment gives you everything you need to stay in shape.",
       "cta": "About us details",
       "imageAlt": "Luna Den Spa Dedeman Şanlıurfa about image area",
       "highlights": {
@@ -40,7 +40,7 @@
     },
     "services": {
       "badge": "Services",
-      "intro": "Rest your body with hammam, sauna, scrub + foam, and massage options designed to feel good in Şanlıurfa.",
+      "intro": "Rest and stay in shape with hammam, sauna, scrub + foam, massage, and fitness options designed to feel good in Şanlıurfa.",
       "cta": "Explore all services",
       "popularTitle": "Popular Services",
       "featured": {
@@ -55,6 +55,10 @@
         "massage": {
           "title": "Personalized Massage",
           "description": "Deep relaxation with massage techniques shaped around your needs."
+        },
+        "fitness": {
+          "title": "Fitness Center",
+          "description": "Stay in shape at our gym equipped with modern cardio and weight equipment."
         }
       }
     },
@@ -71,7 +75,7 @@
     "hero": {
       "badge": "Luna Den Spa at Dedeman Şanlıurfa",
       "title": "A refined spa experience that brings calm and care together in Şanlıurfa",
-      "description": "Luna Den Spa Dedeman Şanlıurfa offers guests a calm space where they can step away from the pace of the day, rest their body, and make time for personal care. We plan hammam, sauna, scrub + foam, and personalized massage treatments in a hygienic, warm, and professional atmosphere, shaping each session around the guest's needs.",
+      "description": "Luna Den Spa Dedeman Şanlıurfa offers guests a calm space where they can step away from the pace of the day, rest their body, and make time for personal care. We plan hammam, sauna, scrub + foam, and personalized massage treatments in a hygienic, warm, and professional atmosphere, shaping each session around the guest's needs. Our fitness center with modern equipment, locker rooms, and shower areas also offers a comfortable training environment to help you stay in shape.",
       "imageAlt": "Luna Den Spa Dedeman Şanlıurfa about image"
     },
     "gallery": {
@@ -106,9 +110,9 @@
   },
   "servicesPage": {
     "badge": "Services",
-    "title": "Hammam, sauna, and massage experiences that relax your body in Şanlıurfa",
-    "description": "At Luna Den Spa Dedeman Şanlıurfa, you can relax with traditional hammam rituals, sauna, scrub + foam, and massage options shaped around your needs, and enjoy a calm, professional care experience.",
-    "listTitle": "Hammam, Sauna and Massage Services",
+    "title": "Hammam, sauna, massage, and fitness experiences that relax your body in Şanlıurfa",
+    "description": "At Luna Den Spa Dedeman Şanlıurfa, you can relax with traditional hammam rituals, sauna, scrub + foam, and massage options shaped around your needs, and stay in shape at our fitness center equipped with modern machines.",
+    "listTitle": "Hammam, Sauna, Massage and Fitness Services",
     "listDescription": "Open the relevant service title to review the service description.",
     "images": {
       "primaryAlt": "Luna Den Spa Dedeman Şanlıurfa services visual",
@@ -127,6 +131,10 @@
         "title": "Sauna",
         "description": "A renewing experience that helps reduce muscle tension, support circulation, and shake off the tiredness of the day with the soothing effect of dry heat."
       },
+      "fitness": {
+        "title": "Fitness Center (Gym)",
+        "description": "Our gym is equipped with modern cardio and weight machines, and together with spacious locker rooms and shower areas, it lets you complete your workout in a comfortable and hygienic environment."
+      },
       "classic": {
         "title": "Classic Massage",
         "description": "One of the most commonly preferred massage types, applied with relaxing touches to help loosen the muscles and support blood circulation."
@@ -143,6 +151,13 @@
         "title": "Personalized Massage",
         "description": "Shaped by our expert therapists according to your needs and preferences, this individually planned massage offers deep relaxation."
       }
+    },
+    "gym": {
+      "badge": "Fitness Center",
+      "title": "Our gym equipped with modern machines",
+      "description": "Stay in shape at our gym featuring cardio and weight stations; after your workout, you can use the spacious locker rooms and shower areas, and finish the day with the pleasure of hammam and sauna if you wish.",
+      "primaryAlt": "Luna Den Spa Dedeman Şanlıurfa gym cardio and free weights area",
+      "secondaryAlt": "Luna Den Spa Dedeman Şanlıurfa gym training equipment"
     }
   },
   "contactPage": {
@@ -158,8 +173,10 @@
     },
     "labels": {
       "address": "Address",
-      "phone": "Phone"
+      "phone": "Phone",
+      "hours": "Opening Hours"
     },
+    "hours": "Every day of the week 08:00 - 23:00",
     "actions": {
       "call": "Call by phone",
       "whatsapp": "WhatsApp",
@@ -173,9 +190,9 @@
     "contact": "Contact"
   },
   "footer": {
-    "description": "Experience hammam, sauna, scrub + foam, and personalized massage in a calm and carefully designed atmosphere at Luna Den Spa Dedeman Şanlıurfa.",
+    "description": "Experience hammam, sauna, scrub + foam, and personalized massage in a calm and carefully designed atmosphere at Luna Den Spa Dedeman Şanlıurfa, and stay in shape at our modern fitness center.",
     "contactTitle": "Dedeman Şanlıurfa Branch",
-    "hours": "Every day: 10:30 - 22:00",
+    "hours": "Every day: 08:00 - 23:00",
     "quickLinks": "Quick links",
     "copyright": "© 2026 Luna Den Spa Dedeman Şanlıurfa. All rights reserved."
   },

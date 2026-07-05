@@ -12,15 +12,15 @@
   "home": {
     "hero": {
       "eyebrow": "Luna Den Spa & Wellness",
-      "title": "Şanlıurfa'da bedeninizi dinlendiren spa, hamam ve masaj deneyimi",
-      "description": "Luna Den Spa Dedeman Şanlıurfa'da hamam, sauna, kese + köpük ve kişiye özel masaj teknikleriyle şehir ritminden uzaklaşın; özenli atmosferde kendinize iyi gelen bir mola verin.",
+      "title": "Şanlıurfa'da bedeninizi dinlendiren spa, hamam, masaj ve spor salonu deneyimi",
+      "description": "Luna Den Spa Dedeman Şanlıurfa'da hamam, sauna, kese + köpük ve kişiye özel masaj teknikleriyle şehir ritminden uzaklaşın; modern spor salonumuzda formunuzu koruyun, özenli atmosferde kendinize iyi gelen bir mola verin.",
       "services": "Hizmetlerimizi İncele",
       "contact": "İletişime Geç"
     },
     "about": {
       "badge": "Hakkımızda",
-      "title": "Şanlıurfa'da dinginliği, geleneksel hamam kültürünü ve profesyonel spa deneyimini bir araya getiriyoruz",
-      "description": "Luna Den Spa Dedeman Şanlıurfa, misafirlerine gün temposu içinde sakinleşebilecekleri, bedenlerini dinlendirebilecekleri ve kendilerine özen gösterebilecekleri rahatlatıcı bir alan sunar. Hamam, sauna, kese + köpük ve kişiye özel masaj uygulamalarını hijyenik, sıcak ve özenli bir atmosferde planlıyoruz.",
+      "title": "Şanlıurfa'da dinginliği, geleneksel hamam kültürünü, profesyonel spa deneyimini ve modern spor salonunu bir araya getiriyoruz",
+      "description": "Luna Den Spa Dedeman Şanlıurfa, misafirlerine gün temposu içinde sakinleşebilecekleri, bedenlerini dinlendirebilecekleri ve kendilerine özen gösterebilecekleri rahatlatıcı bir alan sunar. Hamam, sauna, kese + köpük ve kişiye özel masaj uygulamalarını hijyenik, sıcak ve özenli bir atmosferde planlıyor; modern ekipmanlarla donatılmış spor salonumuzla formunuzu korumanız için ihtiyacınız olan her şeyi sunuyoruz.",
       "cta": "Hakkımızda detayları",
       "imageAlt": "Luna Den Spa Dedeman Şanlıurfa hakkımızda görsel alanı",
       "highlights": {
@@ -40,7 +40,7 @@
     },
     "services": {
       "badge": "Hizmetlerimiz",
-      "intro": "Şanlıurfa'da size iyi gelecek hamam, sauna, kese + köpük ve masaj seçenekleriyle bedeninizi dinlendirin.",
+      "intro": "Şanlıurfa'da size iyi gelecek hamam, sauna, kese + köpük, masaj ve spor salonu seçenekleriyle hem dinlenin hem formda kalın.",
       "cta": "Tüm hizmetleri incele",
       "popularTitle": "Popüler Hizmetlerimiz",
       "featured": {
@@ -55,6 +55,10 @@
         "massage": {
           "title": "Kişiye Özel Masaj",
           "description": "İhtiyacınıza göre şekillenen masaj teknikleriyle derin bir rahatlama."
+        },
+        "fitness": {
+          "title": "Spor Salonu",
+          "description": "Modern kardiyo ve ağırlık ekipmanlarıyla donatılmış salonumuzda formunuzu koruyun."
         }
       }
     },
@@ -71,7 +75,7 @@
     "hero": {
       "badge": "Dedeman Şanlıurfa'da Luna Den Spa",
       "title": "Şanlıurfa'da dinginliği ve bakımı bir araya getiren özel spa deneyimi",
-      "description": "Luna Den Spa Dedeman Şanlıurfa, misafirlerine şehir temposundan uzaklaşabilecekleri, bedenlerini dinlendirebilecekleri ve kendilerine özen gösterebilecekleri sakin bir alan sunar. Hamam, sauna, kese + köpük ve kişiye özel masaj uygulamalarını hijyenik, sıcak ve profesyonel bir atmosferde planlıyor; her seansı misafirin ihtiyacına göre özenle şekillendiriyoruz.",
+      "description": "Luna Den Spa Dedeman Şanlıurfa, misafirlerine şehir temposundan uzaklaşabilecekleri, bedenlerini dinlendirebilecekleri ve kendilerine özen gösterebilecekleri sakin bir alan sunar. Hamam, sauna, kese + köpük ve kişiye özel masaj uygulamalarını hijyenik, sıcak ve profesyonel bir atmosferde planlıyor; her seansı misafirin ihtiyacına göre özenle şekillendiriyoruz. Modern ekipmanlarla donatılmış spor salonumuz, soyunma odaları ve duş alanlarıyla formunuzu korumanız için konforlu bir antrenman ortamı sunuyoruz.",
       "imageAlt": "Luna Den Spa Dedeman Şanlıurfa hakkımızda görseli"
     },
     "gallery": {
@@ -106,9 +110,9 @@
   },
   "servicesPage": {
     "badge": "Hizmetlerimiz",
-    "title": "Şanlıurfa'da bedeninizi dinlendiren hamam, sauna ve masaj deneyimleri",
-    "description": "Luna Den Spa Dedeman Şanlıurfa'da geleneksel hamam ritüelleri, sauna, kese + köpük ve ihtiyaçlarınıza göre şekillenen masaj seçenekleriyle rahatlayabilir, sakin ve profesyonel bir bakım deneyimi yaşayabilirsiniz.",
-    "listTitle": "Hamam, Sauna ve Masaj Hizmetlerimiz",
+    "title": "Şanlıurfa'da bedeninizi dinlendiren hamam, sauna, masaj ve spor salonu deneyimleri",
+    "description": "Luna Den Spa Dedeman Şanlıurfa'da geleneksel hamam ritüelleri, sauna, kese + köpük ve ihtiyaçlarınıza göre şekillenen masaj seçenekleriyle rahatlayabilir; modern ekipmanlarla donatılmış spor salonumuzda formunuzu koruyabilirsiniz.",
+    "listTitle": "Hamam, Sauna, Masaj ve Spor Salonu Hizmetlerimiz",
     "listDescription": "Hizmet açıklamalarını incelemek için ilgili hizmet başlığını açabilirsiniz.",
     "images": {
       "primaryAlt": "Luna Den Spa Dedeman Şanlıurfa hizmetlerimiz görseli",
@@ -127,6 +131,10 @@
         "title": "Sauna",
         "description": "Kuru sıcağın rahatlatıcı etkisiyle kas gerginliğini azaltmaya, dolaşımı desteklemeye ve günün yorgunluğunu atmaya yardımcı olan yenileyici bir deneyimdir."
       },
+      "fitness": {
+        "title": "Spor Salonu (Fitness)",
+        "description": "Modern kardiyo ve ağırlık ekipmanlarıyla donatılmış spor salonumuz; ferah soyunma odaları ve duş alanlarıyla antrenmanınızı konforlu ve hijyenik bir ortamda tamamlamanızı sağlar."
+      },
       "classic": {
         "title": "Klasik Masaj",
         "description": "Kasları gevşetmeye ve kan dolaşımını desteklemeye yönelik, rahatlatıcı dokunuşlarla uygulanan, en yaygın tercih edilen masaj türlerinden biridir."
@@ -143,6 +151,13 @@
         "title": "Kişiye Özel Masaj",
         "description": "İhtiyaçlarınıza ve tercihlerinize göre uzman terapistlerimizce şekillendirilen, size özel planlanan masaj teknikleriyle derin bir rahatlama sunar."
       }
+    },
+    "gym": {
+      "badge": "Spor Salonu",
+      "title": "Modern ekipmanlarla donatılmış spor salonumuz",
+      "description": "Kardiyo ve ağırlık istasyonlarıyla donatılmış spor salonumuzda formunuzu koruyabilir; antrenman sonrasında ferah soyunma odalarımızı ve duş alanlarımızı kullanabilir, dilerseniz gününüzü hamam ve sauna keyfiyle tamamlayabilirsiniz.",
+      "primaryAlt": "Luna Den Spa Dedeman Şanlıurfa spor salonu kardiyo ve serbest ağırlık alanı",
+      "secondaryAlt": "Luna Den Spa Dedeman Şanlıurfa spor salonu antrenman ekipmanları"
     }
   },
   "contactPage": {
@@ -158,8 +173,10 @@
     },
     "labels": {
       "address": "Adres",
-      "phone": "Telefon"
+      "phone": "Telefon",
+      "hours": "Çalışma Saatleri"
     },
+    "hours": "Haftanın her günü 08:00 - 23:00",
     "actions": {
       "call": "Telefonla ara",
       "whatsapp": "WhatsApp",
@@ -173,9 +190,9 @@
     "contact": "İletişim"
   },
   "footer": {
-    "description": "Luna Den Spa Dedeman Şanlıurfa'da hamam, sauna, kese + köpük ve kişiye özel masaj deneyimini sakin ve özenli bir atmosferde yaşayın.",
+    "description": "Luna Den Spa Dedeman Şanlıurfa'da hamam, sauna, kese + köpük ve kişiye özel masaj deneyimini sakin ve özenli bir atmosferde yaşayın; modern spor salonumuzda formunuzu koruyun.",
     "contactTitle": "Dedeman Şanlıurfa Şubesi",
-    "hours": "Her gün: 10:30 - 22:00",
+    "hours": "Her gün: 08:00 - 23:00",
     "quickLinks": "Hızlı bağlantılar",
     "copyright": "© 2026 Luna Den Spa Dedeman Şanlıurfa. Tüm hakları saklıdır."
   },
