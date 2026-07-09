@@ -10,11 +10,15 @@ declare global {
   }
 }
 
-const googleAdsId = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID;
+const googleAdsId =
+  process.env.NEXT_PUBLIC_GOOGLE_ADS_ID || "AW-18303510867";
 
 const conversionLabels = {
-  whatsapp: process.env.NEXT_PUBLIC_GOOGLE_ADS_WHATSAPP_LABEL,
-  phone: process.env.NEXT_PUBLIC_GOOGLE_ADS_PHONE_LABEL,
+  whatsapp:
+    process.env.NEXT_PUBLIC_GOOGLE_ADS_WHATSAPP_LABEL ||
+    "wOv2CJCqyM0cENPS5ZdE",
+  phone:
+    process.env.NEXT_PUBLIC_GOOGLE_ADS_PHONE_LABEL || "pdUgCJfAr80cENPS5ZdE",
 } as const;
 
 type ConversionType = keyof typeof conversionLabels;

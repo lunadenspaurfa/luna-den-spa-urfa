@@ -39,7 +39,12 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-2.5">
                 <Phone className="size-4 shrink-0 text-primary" />
-                <a href={phoneHref} className="transition hover:text-foreground">
+                <a
+                  href={phoneHref}
+                  data-conversion="phone"
+                  data-conversion-location="footer"
+                  className="transition hover:text-foreground"
+                >
                   {phoneNumber}
                 </a>
               </li>
@@ -49,6 +54,8 @@ export function Footer() {
                   href={whatsappHref}
                   target="_blank"
                   rel="noreferrer"
+                  data-conversion="whatsapp"
+                  data-conversion-location="footer"
                   className="transition hover:text-foreground"
                 >
                   WhatsApp: {phoneNumber}

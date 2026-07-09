@@ -92,14 +92,24 @@ export function ContactOverview() {
 
               <div className="mt-auto grid gap-3 pt-7 sm:grid-cols-2">
                 <Button asChild className="h-11 px-5">
-                  <a href={phoneHref}>
+                  <a
+                    href={phoneHref}
+                    data-conversion="phone"
+                    data-conversion-location="contact-page"
+                  >
                     {t("actions.call")}
                     <Phone className="size-4" />
                   </a>
                 </Button>
 
                 <Button asChild variant="outline" className="h-11 px-5">
-                  <a href={whatsappHref} target="_blank" rel="noreferrer">
+                  <a
+                    href={whatsappHref}
+                    target="_blank"
+                    rel="noreferrer"
+                    data-conversion="whatsapp"
+                    data-conversion-location="contact-page"
+                  >
                     {t("actions.whatsapp")}
                     <MessageCircle className="size-4" />
                   </a>
